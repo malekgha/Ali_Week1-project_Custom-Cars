@@ -88,18 +88,18 @@ print("===============================================")
 print()
 #add Summary header below
 print("~ Summary ~")
-#add model option 
-print("Model Option:  a")
-#add upgrade version
-print("Upgrade to hatchback version:  No")
-#add desired color
-print("Desired Color:  Red")
-#add desired tire size
-print("Desired tire size:  C")
-#add type of seat
-print("Heated Seats:   Yes")
-#add desired custom message
-print("Desired Custom Message:    Forever Happy!")
+#print out chosen model option by using f-string and Answer1
+print(f"Model Option: {Answer1}")
+#print out upgrade version by using f-string and Answer2 
+print(f"Upgrade to hatchback version: {Answer2}")
+#print out desired color by using f-string and Answer3
+print(f"Desired Color: {Answer3}")
+#print out desired tire size using f-string and Answer4
+print(f"Desired tire size: {Answer4}")
+#print out type of seat using f-string and Answer5
+print(f"Heated Seats: {Answer5}")
+#print out desired custom message using f-string and Answer6
+print(f"Desired Custom Message: {Answer6}")
 
 
 
